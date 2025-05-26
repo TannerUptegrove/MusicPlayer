@@ -1,0 +1,26 @@
+##### Music Player Notes #####
+
+Lessons Learned:
+- Adding gradients/shadows to a solid color can give it depth.
+- When using a custom transparent image, remember to crop the image to the content.
+
+Functionality:
+- Be able to scan a file to find playlists.
+- Be able to scan each playlist and allow the user to play the songs.
+- Allow the user to shuffle the songs.
+- Allow the user to close out of the music player and it save the order of the
+  shuffled playlist.
+
+Pages to Create:
+- Page that allows the user to play a loaded playlist.
+- Page that displays each playlist.
+- Settings Page
+- Page for each playlist.
+
+Player Panel Buttons:
+- 540px x 540px images.
+
+Color List:
+- Main background rgb(214, 7, 42)
+- Background Shadow: rgb(214, 7, 42)
+- Player panel background: rgb(75, 17, 17)
