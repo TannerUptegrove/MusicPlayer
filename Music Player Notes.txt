@@ -21,6 +21,6 @@ Player Panel Buttons:
 - 540px x 540px images.
 
 Color List:
-- Main background rgb(214, 7, 42)
+- Main background rgb(126, 0, 0)
 - Background Shadow: rgb(214, 7, 42)
 - Player panel background: rgb(75, 17, 17)
