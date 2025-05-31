@@ -6,33 +6,39 @@
         <link rel="stylesheet" type="text/css" href="styles/player.css">
 
         <script src="javascript/player.js"></script>
-about:blank#blocked
 
-        <title>Document</title> <!-- Will change the title to whatever song is playing -->
+        <title>Song</title> <!-- Will change the title to whatever song is playing -->
     </head>
 
     <body>
         <header>
-
+            <h3>Track name</h3>
         </header>
 
-        <h1 id="track-name">Track Name</h1>
-
-        <div id="player-panel">
+        <div class="background-design"></div>
+        
+        <div class="center">
+            <main>
             <div id="music-image"></div>
-            <p id="music-name">This is the song</p>
 
-            <div id="player-controls">
-                <input id="time-slider" type="range" min="0" max="100" value="0">
-                
-                <div id="player-buttons">
-                    <button id="back-btn"></button>
-                    <button id="play-btn"></button>
-                    <button id="forward-btn"></button>
+             <div id="player-panel">
+                <h3>Song Name</h3>
+
+                <div id="player-controls">
+                    <input type="range" id="duration-slider" min="0" max="100">
+
+                    <div class="player-buttons">
+                        <button id="back-btn">Prev</button>
+                        <button id="play-btn">Play</button>
+                        <button id="next-btn">Next</button>
+                    </div>
+                    
                 </div>
             </div>
+            </main>
         </div>
 
-        <footer></footer>
+        
+
     </body>
 </html>
