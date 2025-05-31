@@ -3,6 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kite+One&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="styles/player.css">
 
         <script src="javascript/player.js"></script>
@@ -11,12 +15,12 @@
     </head>
 
     <body>
-        <header>
+        <header class="center">
             <h3>Track name</h3>
         </header>
 
         <div class="background-design"></div>
-        
+
         <div class="center">
             <main>
             <div id="music-image"></div>
@@ -24,13 +28,13 @@
              <div id="player-panel">
                 <h3>Song Name</h3>
 
-                <div id="player-controls">
-                    <input type="range" id="duration-slider" min="0" max="100">
+                <div id="player-controls" class="center">
+                    <input type="range" id="duration-slider" min="0" max="100" value="0">
 
                     <div class="player-buttons">
-                        <button id="back-btn">Prev</button>
-                        <button id="play-btn">Play</button>
-                        <button id="next-btn">Next</button>
+                        <button id="back-btn" class="btn"><img src="./images/back.png"></button>
+                        <button id="play-btn" class="btn"><img src="./images/play.png"></button>
+                        <button id="next-btn" class="btn"><img src="./images/next.png"></button>
                     </div>
                     
                 </div>

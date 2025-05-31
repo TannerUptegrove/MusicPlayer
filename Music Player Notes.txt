@@ -19,3 +19,6 @@ Pages to Create:
 
 Player Panel Buttons:
 - 540px x 540px images.
+
+Color Codes:
+- Primary color: #7a2229
