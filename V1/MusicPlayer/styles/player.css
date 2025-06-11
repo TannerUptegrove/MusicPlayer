@@ -51,7 +51,7 @@ main {
     transform: translate(-50%, -50%);
 }
 
-#music-image {
+#music-img{
     width: 230px;
     height: 230px;
 
@@ -82,14 +82,14 @@ main {
     gap: 15px;
 }
 
-#duration-slider {  
+#music-duration {  
     appearance: none;
     width: 80%;
     height: 1px;
     margin-bottom: 15px;
 }
 
-#duration-slider::-webkit-slider-thumb {
+#music-duration::-webkit-slider-thumb {
     appearance: none;
     background-color: white;
     width: 15px;
@@ -105,8 +105,4 @@ main {
 
 .btn img {
     width: 100%;
-}
-
-#back-btn {
-    background-image: url("../images/back.png");
 }
