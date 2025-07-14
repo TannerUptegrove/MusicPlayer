@@ -44,6 +44,19 @@ body {
     box-shadow: 0px 0px 40px black inset;
 }
 
+.dim-background-animation {
+    animation: dim-background;
+    animation-fill-mode: forwards; /* Makes the animations persistent */
+    animation-duration: 0.75s;
+    animation-delay: 1.40s;
+}
+
+@keyframes dim-background {
+    100% {
+        background-color: #3f1216;
+    }
+}
+
 #track-loader-panel {
     width: 230px;
     height: 340px;
